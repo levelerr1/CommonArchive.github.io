@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="post">
+  <p class="eyebrow"><a href="{{ '/' | relative_url }}">&larr; The Commons</a></p>
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  {% include byline.html author=page.author date=page.date %}
+
+  {% if page.image %}
+    <figure class="post-cover">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
+      {% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}
+    </figure>
+  {% endif %}
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <div class="post-footer">
+    <hr>
+    <p><a href="{{ '/' | relative_url }}">&larr; Back to all articles</a></p>
+  </div>
+</article>

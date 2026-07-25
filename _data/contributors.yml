@@ -1,0 +1,22 @@
+# Add one entry per friend who writes for the site.
+# "initials" show up in their round byline badge.
+# "color" is any hex code — pick something that feels like them.
+#
+# Once someone is listed here, just use their name (exactly as written below)
+# in a post's "author:" field and everything else is automatic.
+
+Ada:
+  initials: "AO"
+  color: "#2F5F58"
+
+Marcus:
+  initials: "MK"
+  color: "#B4552E"
+
+Priya:
+  initials: "PS"
+  color: "#6B5B95"
+
+Leo:
+  initials: "LF"
+  color: "#3D6B4F"

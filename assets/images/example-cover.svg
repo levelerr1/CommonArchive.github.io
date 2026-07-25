@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#DCD6C6"/>
+  <rect x="220" y="240" width="300" height="220" fill="#FBFAF6" stroke="#8C8577" stroke-width="2"/>
+  <rect x="260" y="200" width="300" height="220" fill="#FBFAF6" stroke="#8C8577" stroke-width="2"/>
+  <rect x="300" y="160" width="300" height="220" fill="#FBFAF6" stroke="#2F5F58" stroke-width="2"/>
+  <line x1="330" y1="200" x2="570" y2="200" stroke="#8C8577" stroke-width="2"/>
+  <line x1="330" y1="230" x2="570" y2="230" stroke="#8C8577" stroke-width="2"/>
+  <line x1="330" y1="260" x2="500" y2="260" stroke="#8C8577" stroke-width="2"/>
+  <text x="600" y="600" font-family="Georgia, serif" font-size="20" fill="#8C8577" text-anchor="middle">
+    replace this file — assets/images/example-cover.svg
+  </text>
+</svg>

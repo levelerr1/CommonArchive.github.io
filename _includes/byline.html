@@ -1,0 +1,10 @@
+{% assign contributor = site.data.contributors[include.author] %}
+<span class="byline">
+  <span class="badge" style="background-color: {{ contributor.color | default: '#8C8577' }}">
+    {{ contributor.initials | default: include.author | slice: 0, 2 | upcase }}
+  </span>
+  <span class="byline-text">
+    <span class="byline-name">{{ include.author }}</span>
+    <span class="byline-date">{{ include.date | date: "%d %b %Y" }}</span>
+  </span>
+</span>

@@ -1,0 +1,307 @@
+/* ---------------------------------------------------------
+   The Commons — a reading-room, not a template.
+   Token system: paper + ink, pine as the working accent,
+   brick reserved for small signature moments only.
+--------------------------------------------------------- */
+
+:root {
+  --paper: #F2EFE7;
+  --card: #FBFAF6;
+  --ink: #262420;
+  --ink-soft: #4A463E;
+  --stone: #8C8577;
+  --rule: #DCD6C6;
+  --pine: #2F5F58;
+  --pine-deep: #234742;
+  --brick: #B4552E;
+
+  --display: "Fraunces", Georgia, serif;
+  --body: "Literata", Georgia, serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --max: 720px;
+}
+
+* { box-sizing: border-box; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+html { background: var(--paper); }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+a { color: var(--pine); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--pine-deep); }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--brick);
+  outline-offset: 3px;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  padding: 40px 0 20px;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 40px;
+}
+
+.masthead-inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+.wordmark {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.masthead-nav { display: flex; gap: 20px; }
+.masthead-nav a {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.masthead-nav a:hover { color: var(--pine); }
+
+.tagline {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--stone);
+  margin: 10px 0 0;
+  letter-spacing: 0.01em;
+}
+
+/* ---------- Feed / index ---------- */
+
+.page-content { padding-bottom: 80px; min-height: 40vh; }
+
+.feed { display: flex; flex-direction: column; }
+
+.entry {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 20px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.entry:first-child { padding-top: 0; }
+
+.entry:has(.entry-thumb) { grid-template-columns: 96px 1fr; }
+.entry:not(:has(.entry-thumb)) { grid-template-columns: 1fr; }
+
+.entry-thumb {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--rule);
+}
+.entry-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.entry-title {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.25;
+  margin: 8px 0 8px;
+}
+.entry-title a { color: var(--ink); text-decoration: none; }
+.entry-title a:hover { color: var(--pine); }
+
+.entry-excerpt { color: var(--ink-soft); margin: 0 0 10px; }
+
+.entry-read {
+  font-family: var(--mono);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.empty-state {
+  padding: 60px 0;
+  text-align: center;
+  color: var(--stone);
+  font-family: var(--mono);
+  font-size: 14px;
+}
+.empty-state code {
+  background: var(--card);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* ---------- Byline badge (the signature element) ---------- */
+
+.byline {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.badge {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  color: #FBFAF6;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+
+.byline-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+.byline-name {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink);
+}
+.byline-date {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--stone);
+}
+
+/* ---------- Single post ---------- */
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 13px;
+  margin: 0 0 20px;
+}
+.eyebrow a { text-decoration: none; }
+
+.post-title {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.15;
+  margin: 0 0 18px;
+  letter-spacing: -0.01em;
+}
+
+.post-cover {
+  margin: 24px -24px;
+}
+.post-cover img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+.post-cover figcaption {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--stone);
+  padding: 8px 24px 0;
+}
+
+.post-body { margin-top: 28px; }
+.post-body p { margin: 0 0 20px; }
+.post-body h2 {
+  font-family: var(--display);
+  font-size: 26px;
+  font-weight: 600;
+  margin: 40px 0 16px;
+}
+.post-body h3 {
+  font-family: var(--display);
+  font-size: 21px;
+  font-weight: 600;
+  margin: 32px 0 14px;
+}
+.post-body img {
+  max-width: 100%;
+  border-radius: 4px;
+  display: block;
+  margin: 28px auto;
+}
+.post-body blockquote {
+  margin: 24px 0;
+  padding-left: 20px;
+  border-left: 2px solid var(--brick);
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.post-body a { text-decoration-color: var(--rule); }
+.post-body code {
+  background: var(--card);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.post-footer { margin-top: 48px; }
+.post-footer hr { border: none; border-top: 1px solid var(--rule); margin: 0 0 20px; }
+.post-footer a { font-family: var(--mono); font-size: 13px; text-decoration: none; }
+
+/* ---------- About page ---------- */
+
+.page-content h1 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 36px;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 24px 0 60px;
+}
+.footer-inner {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--stone);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.footer-inner a { color: var(--stone); }
+.footer-dot { color: var(--rule); }
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 560px) {
+  body { font-size: 17px; }
+  .post-title { font-size: 30px; }
+  .entry-title { font-size: 22px; }
+  .post-cover { margin: 20px -16px; }
+  .wrap { padding: 0 16px; }
+  .entry:has(.entry-thumb) { grid-template-columns: 72px 1fr; }
+  .entry-thumb { width: 72px; height: 72px; }
+}

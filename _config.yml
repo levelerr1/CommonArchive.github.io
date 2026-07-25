@@ -1,0 +1,27 @@
+title: The Commons
+tagline: a shared notebook, written by friends, for friends
+description: >-
+  A collected home for the articles our friend group writes for each other —
+  no algorithm, no strangers, just the people we know writing things worth reading.
+
+# --- Basic settings ---
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+timezone: Etc/UTC
+
+# --- Safe, GitHub-Pages-approved plugins ---
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# --- Leave these as they are unless you know you need them ---
+# If you publish at https://yourname.github.io/the-commons, set baseurl below.
+# If you publish at https://yourname.github.io (a "user site"), leave it blank.
+baseurl: ""
+url: ""
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
