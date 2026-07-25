@@ -17,7 +17,7 @@ plugins:
 # --- Leave these as they are unless you know you need them ---
 # If you publish at https://yourname.github.io/the-commons, set baseurl below.
 # If you publish at https://yourname.github.io (a "user site"), leave it blank.
-baseurl: ""
+baseurl: ""/CommonArchive.github.io""
 url: ""
 
 exclude:
