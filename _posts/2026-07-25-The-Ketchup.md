@@ -11,7 +11,7 @@ us greatly about the development of man, society and commerce.
 The Ketchup Conundrum is a wonderful article that delves deep into the 
 banality of condiments. “Brilliant!" — Was my thought toward this article.  
 
-![ketchup image]({{ site.baseurl }}/assets/images/images74).jpeg)
+![ketchup image]({{ site.baseurl }}/assets/images/images74.jpeg)
 
 I appreciate a writer’s effort to take a seemingly negligible idea and 
 skillfully portray its story; such that its existence and effect can be 
