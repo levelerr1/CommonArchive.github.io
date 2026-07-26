@@ -78,6 +78,20 @@ a:focus-visible, button:focus-visible {
   text-decoration: none;
 }
 
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 .masthead-nav { display: flex; gap: 20px; }
 .masthead-nav a {
   font-family: var(--mono);
