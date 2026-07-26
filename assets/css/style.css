@@ -102,6 +102,13 @@ a:focus-visible, button:focus-visible {
 .page-content { padding-bottom: 80px; min-height: 40vh; }
 
 .feed { display: flex; flex-direction: column; }
+.landing-hero {
+     width: 100%;
+     max-height: 360px;
+     object-fit: cover;
+     border-radius: 6px;
+     margin-bottom: 32px;
+   }
 
 .entry {
   display: grid;
