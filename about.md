@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-# About The Commons
+# About The Commoner Archive
 
 This is a shared notebook. Everything on it was written by someone in our
 friend group and handed over to be posted here — no strangers, no algorithm
