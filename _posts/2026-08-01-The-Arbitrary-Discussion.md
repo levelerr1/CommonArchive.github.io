@@ -24,6 +24,6 @@ A Bangladeshi man must obtain a visa to gain access to a country which once acce
 
 The role of a passport has slowly shifted as a temporary solution to prevent spies and identify citizenship to a form of **human herding** via border control. The criteria that determines if another human is allowed into another region on the Earth's crust should not be based on poorly drawn lines.
 
-I sometimes fall asleep at night saying to myself, *"The age of consent is not a universally agreed chronological rationale and is because a group of individuals thought so, the lines of longitude are not absolute and I cannot travel to Australia without a visa for some individuals decided my borders are weak."*
+I sometimes fall asleep at night saying to myself, *"The age of consent is not a universally agreed chronological rationale and is so because a group of individuals thought so, the lines of longitude are not absolute and I cannot travel to Australia without a visa for some individuals decided my borders are weak."*
 
 > Written by Gabriel O. for **The Commoner Archive**, 1st of August, 2026
