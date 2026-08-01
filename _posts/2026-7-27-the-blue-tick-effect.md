@@ -42,3 +42,5 @@ form of desiring such item is an interesting concept that an everyday person may
 of the most researched aspect in human behavioral sciences. 
 
 In all, the blue tick is a form of advertising, at least, it shares similar principles.
+
+> Written by Gabriel O. for **The Commoner Archive**, 27th of July, 2026
