@@ -18,3 +18,5 @@ skillfully portray its story; such that its existence and effect can be
 appreciated. The article attempts to understand why mustard comes in 
 variety of flavors whilst *Heinz’s* Ketchup continues to dominate the ketchup 
 market — A beautiful and compelling concept overall. (5/5) 
+
+> Written by Gabriel O. for **The Commoner Archive**, 25th of July, 2026
