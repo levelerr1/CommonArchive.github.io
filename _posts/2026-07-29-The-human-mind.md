@@ -62,4 +62,6 @@ you can, even the universe conspire to make you have it.
 
 While the belief that “humans only use 10% of their brain capacity” is false, I honestly believe that is in fact true with 
 the mind.
+
+> Written by Sukurat S. for **The Commoner Archive**, 29th of July, 2026
  
