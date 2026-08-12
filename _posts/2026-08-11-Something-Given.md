@@ -19,7 +19,7 @@ and begun spending it —as any normal person would act. Naturally, it was only 
 this error and took legal action.
 
 In the constitution of the *Federal Republic of Nigeria* and the state in which the trial took place, under 
-section 387(1) of the ***Criminal Code Law** of Edo state, 2022* if one intentionally converts another’s property 
+***section 387(1)*** of the ***Criminal Code Law** of Edo state, 2022* if one intentionally converts another’s property 
 without consent or any other form of deceit then that person can be said to have committed theft by conversion.
 Now the prosecution argues that he has committed theft for he knew the sum of money was not his and must belong to another,
 did not take necessary actions to correct this and begun to spend it. The verdict of this case is much more important than
@@ -63,12 +63,14 @@ use the law in their favor against a smaller party. He did not use any form of d
 interact with the bank in a way that it caused the error to be caused and he acknowledged that the money did not belong to him.
 This is a civil dispute that lacked proper legal representation. 
 
-I believe that if my mother sends a sum of money to me without my knowledge I have not committed theft. I believe what was given
+![Mr. Ojo Kingsley]({{ site.baseurl }}/assets/images/Ojo.jpg)
+
+I believe that if my mother sends money to me without my knowledge I have not committed theft. I believe what was given
 willingly without force nor coercion nor deception, should not be treated as a criminal charge. I believe the banks should be held
 to a higher standard of the law when misappropriation is committed. I believe his actions only amount to a misdemeanor —refusal to
 comply with a financial body. 
 
-In all I insist the only crime he was guilty of was lack of proper representation.
+In all I insist the only crime he was guilty of was lack of proper representation. In the end I am not a lawyer but a citizen who by reasoning and common knowledge expects a fair outcome.
  
 
 > Written by Gabriel O. for **The Commoner Archive**, 11th of August, 2026
