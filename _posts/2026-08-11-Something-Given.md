@@ -5,7 +5,7 @@ author: Gabriel
 image: /assets/images/money.jpeg
 image_alt: "An image of money"
 ---
->  WHEN DOES RECEIVING A GIFT BECOMES THEFT?
+>  When does receiving a gift becomes theft?
 
 On the 19th of January, 2026, *Mr. Ojo Eghosa Kingsley* was charged and convicted of theft by the Edo state 
 high court in Nigeria. This particular case has piqued my interest for it is a manifestation of the age long
