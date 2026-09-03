@@ -5,7 +5,7 @@ layout: default
   <p class="eyebrow"><a href="{{ '/' | relative_url }}">&larr; The Commoner Archive</a></p>
   <h1 class="post-title">{{ page.title }}</h1>
 
-  {% include byline.html author=page.author date=page.date %}
+  {% include byline.html author=page.author date=page.date content=content %}
 
   {% if page.image %}
     <figure class="post-cover">
