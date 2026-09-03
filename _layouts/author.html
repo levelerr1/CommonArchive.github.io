@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% assign contributor = site.data.contributors[page.author] %}
+<div class="author-header">
+  <span class="badge badge-lg" style="background-color: {{ contributor.color | default: '#8C8577' }}">
+    {{ contributor.initials | default: page.author | slice: 0, 2 | upcase }}
+  </span>
+  <div>
+    <h1 class="author-name">{{ page.author }}</h1>
+    {% if contributor.bio %}<p class="author-bio">{{ contributor.bio }}</p>{% endif %}
+  </div>
+</div>
+
+<div class="feed">
+  {% assign author_posts = site.posts | where: "author", page.author %}
+  {% for post in author_posts %}
+    {% include entry.html post=post %}
+  {% endfor %}
+</div>
