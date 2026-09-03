@@ -1,10 +1,21 @@
 {% assign contributor = site.data.contributors[include.author] %}
+{% if include.content %}
+  {% assign words = include.content | number_of_words %}
+  {% assign read_minutes = words | divided_by: 200.0 | ceil %}
+  {% if read_minutes < 1 %}{% assign read_minutes = 1 %}{% endif %}
+{% endif %}
 <span class="byline">
   <span class="badge" style="background-color: {{ contributor.color | default: '#8C8577' }}">
     {{ contributor.initials | default: include.author | slice: 0, 2 | upcase }}
   </span>
   <span class="byline-text">
-    <span class="byline-name">{{ include.author }}</span>
-    <span class="byline-date">{{ include.date | date: "%d %b %Y" }}</span>
+    {% if contributor.archive %}
+      <a class="byline-name" href="{{ contributor.archive | relative_url }}">{{ include.author }}</a>
+    {% else %}
+      <span class="byline-name">{{ include.author }}</span>
+    {% endif %}
+    <span class="byline-date">
+      {{ include.date | date: "%d %b %Y" }}{% if read_minutes %} &middot; {{ read_minutes }} min read{% endif %}
+    </span>
   </span>
 </span>
