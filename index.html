@@ -3,19 +3,7 @@ layout: default
 ---
 <div class="feed">
   {% for post in site.posts %}
-    <article class="entry">
-      {% if post.image %}
-        <a class="entry-thumb" href="{{ post.url | relative_url }}">
-          <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}">
-        </a>
-      {% endif %}
-      <div class="entry-body">
-        {% include byline.html author=post.author date=post.date %}
-        <h2 class="entry-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="entry-excerpt">{{ post.excerpt | strip_html | truncatewords: 32 }}</p>
-        <a class="entry-read" href="{{ post.url | relative_url }}">Read the piece &rarr;</a>
-      </div>
-    </article>
+    {% include entry.html post=post %}
   {% else %}
     <div class="empty-state">
       <p>Nothing's been posted yet.</p>
