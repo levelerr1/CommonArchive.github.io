@@ -1,0 +1,13 @@
+<article class="entry">
+  {% if include.post.image %}
+    <a class="entry-thumb" href="{{ include.post.url | relative_url }}">
+      <img src="{{ include.post.image | relative_url }}" alt="{{ include.post.image_alt | default: include.post.title }}">
+    </a>
+  {% endif %}
+  <div class="entry-body">
+    {% include byline.html author=include.post.author date=include.post.date content=include.post.content %}
+    <h2 class="entry-title"><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h2>
+    <p class="entry-excerpt">{{ include.post.excerpt | strip_html | truncatewords: 32 }}</p>
+    <a class="entry-read" href="{{ include.post.url | relative_url }}">Read the piece &rarr;</a>
+  </div>
+</article>
