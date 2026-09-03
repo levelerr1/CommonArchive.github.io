@@ -16,6 +16,8 @@ Marcus:
 Sukurat Salawudeen:
   initials: "SS"
   color: "#038cfc"
+  bio: "Sukurat enjoys philosophy and cognition based activities "
+  archive: "/authors/sukurat/"
 
 Leo:
   initials: "LF"
@@ -24,3 +26,5 @@ Leo:
 Gabriel:
   initials: "GA"
   color: "#625669"
+  bio: "Curious about the significance of events"
+  archive: "/authors/gabriel/"
