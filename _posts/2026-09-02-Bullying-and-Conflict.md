@@ -37,7 +37,7 @@ stands out because of the contrast between both countries firepower is large. No
 readers that I am not debating the justification of any conflict but rather why they are perceived and in this case,
 why it is perceived as bullying.
 
-![ICBM]({{ site.baseurl }}/assets/images/immigration-arrow.png)
+![ICBM]({{ site.baseurl }}/assets/images/icbm.jpeg)
 
 Bullying according to *Dan Olweus*, in his book *Bullying at School*, identifies bullying as not just being *mean*,
 but highlights three components involved in bullying: *Intentional aggression, repetition (persistence) and power imbalance*.
