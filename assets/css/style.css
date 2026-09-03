@@ -212,6 +212,9 @@ a:focus-visible, button:focus-visible {
   font-weight: 500;
   color: var(--ink);
 }
+a.byline-name {
+  text-decoration: none;
+}
 .byline-date {
   font-family: var(--mono);
   font-size: 12px;
