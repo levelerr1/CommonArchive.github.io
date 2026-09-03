@@ -18,8 +18,23 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="post-footer">
-    <hr>
-    <p><a href="{{ '/' | relative_url }}">&larr; Back to all articles</a></p>
-  </div>
+  {% assign contributor = site.data.contributors[page.author] %}
+{% assign more_posts = site.posts | where: "author", page.author | where_exp: "post", "post.url != page.url" | limit: 3 %}
+<div class="post-footer">
+  <hr>
+  {% if more_posts.size > 0 %}
+    <div class="more-from-author">
+      <h3>More from {{ page.author }}</h3>
+      <ul>
+        {% for post in more_posts %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+      {% if contributor.archive %}
+        <a class="see-all-author" href="{{ contributor.archive | relative_url }}">See everything by {{ page.author }} &rarr;</a>
+      {% endif %}
+    </div>
+  {% endif %}
+  <p><a href="{{ '/' | relative_url }}">&larr; Back to all articles</a></p>
+</div>
 </article>
