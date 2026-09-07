@@ -24,8 +24,8 @@ and teachers generally have little patience for any acts of insubordination.
 On the *24th of February,* 2022, the Russian military launched a full scale invasion into Ukraine, attacking 
 multiple directions simultaneously with the aim of capturing *Kyiv*, highlighting their opposition the 
 involvement of NATO (*North Atlantic Treaty Organization*) especially U.S military troops —the U.S being
-a member then— citing the need to claim Ukraine as a matter of national security. This saw a quick polarization 
-in the military presence in Ukraine as the war advanced. NATO played a major role in role in the war, which was
+a member — citing the need to claim Ukraine as a matter of national security. This saw a quick polarization 
+in the military presence in Ukraine as the war advanced. NATO played a major role in role in the war, which is
 ironic when considering this was what Russia campaigned against and threatened the utilization of nuclear warheads.
 The war advanced and this lead to interesting innovations in modern warfare especially in terms of the mass 
 adoption of fibre-optic drones and other contraptions in the war field. In many ways this conflict appears 
@@ -54,20 +54,19 @@ attention.
 
 We could also perceive the enabling of bullying by reviewing funding allocated to each country (especially countries 
 that have a lesser financial, economic and military repertoire), Ukraine for example has been a major beneficiary of 
-military budgets and aid allocations from NATO countries. Infact, even after the withdrawal of the U.S from NATO. 
-On the other hand, around 2004, most countries have ceased military aid to the Palestine forces —it is important to
-know that this was a result of multiple demands and ceasefire being broken by both sides and the *Hamas* refusing to
-acknowledge the existence of Israel as a sovereign state— and by comparison, Israel —which has way better funding— 
-gradually is perceived as a global superpower brute-forcing its way on the territory of a much smaller country’s 
-territory by just sheer force rather than negotiations and tactics, and this makes the conflict appear one-sided 
-with Palestine bearing more casualties. This is not helped by the prevalence if lobbying groups for the support of
-Israel existing in first world countries, an example of this is AIPAC (*American Israel Public Affairs Committee*). 
-As such, considering the amount of support, firepower and military allocation that Israel has, we can understand why
-the public opinion has progressively shifted over the years and presents Israel as a bully, but then opposite is 
-observed in the *Russian-Ukraine* war. Russia is also perceived as an aggressor but because the Ukrainian military 
-has been able to provide counter attacking measures, the idea of Russia winning through sheer becomes unlikely; as
-such, even though Russia had fit into the bully ideology at the start of the war, the amount of support Ukraine 
-received over the years in a relatively short period invalidates Russia as a bully. Bully the, not bully now.
+military budgets and aid allocations from NATO countries. On the other hand, around 2004, most countries have ceased
+military aid to the Palestine forces —it is important to know that this was a result of multiple demands and ceasefire
+being broken by both sides and the *Hamas* refusing to acknowledge the existence of Israel as a sovereign state— and
+by comparison, Israel —which has way better funding— gradually is perceived as a global superpower brute-forcing its
+way on the territory of a much smaller country’s territory by just sheer force rather than negotiations and tactics,
+and this makes the conflict appear one-sided with Palestine bearing more casualties. This is not helped by the prevalence 
+if lobbying groups for the support of Israel existing in first world countries, an example of this is AIPAC (*American Israel
+Public Affairs Committee*). As such, considering the amount of support, firepower and military allocation that Israel 
+has, we can understand why the public opinion has progressively shifted over the years and presents Israel as a bully,
+but then opposite is observed in the *Russian-Ukraine* war. Russia is also perceived as an aggressor but because the 
+Ukrainian military has been able to provide counter attacking measures, the idea of Russia winning through sheer becomes
+unlikely; as such, even though Russia had fit into the bully ideology at the start of the war, the amount of support 
+Ukraine received over the years in a relatively short period invalidates Russia as a bully. Bully then, not bully now.
 
 Generally, my perception of bullying is biased as I have not had much experience with bullies, especially in 
 extreme forms, but I will say this, *Bullying thrives in environments that encourage it*. Regardless of political
