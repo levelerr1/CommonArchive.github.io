@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bullying and Conflict"
+title: "Futility of Patriotism"
 author: E.Babs
 image: /assets/images/birdview.jpeg
 image_alt: "Aerial view of a Nigerian market"
